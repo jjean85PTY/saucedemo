@@ -8,7 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class base {
-	
+
+	//base clase
 	private WebDriver driver;
 	
 	public base(WebDriver driver) {
