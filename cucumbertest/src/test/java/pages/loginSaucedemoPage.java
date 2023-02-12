@@ -8,9 +8,10 @@ public class loginSaucedemoPage {
 	
 	  WebDriver driver;
 	  
-	  By txt_usrname = By.id("user-name"); By txt_password = By.id("password"); By
-	  btn_login = By.id("login-button"); By btn_logout =
-	  By.id("logout_sidebar_link");
+	  By txt_usrname = By.id("user-name"); 
+	  By txt_password = By.id("password"); 
+	  By btn_login = By.id("login-button"); 
+	  By btn_logout = By.id("logout_sidebar_link")
 	  
 	  //Constructor to login public loginSaucedemoPage(WebDriver driver){
 	  
