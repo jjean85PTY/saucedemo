@@ -1,0 +1,12 @@
+Feature: Access the saucedemo home page and see all products
+
+  Scenario Outline: Access Scenario home page
+    Given the user open the browser
+    And user the access to saucedemo website
+    When instert the <username> and <password>
+    Then the user loging into saucedemo homepage
+    And can see all saucedemo product
+
+    Examples: 
+      | standard_user           | secret_sauce |
+      | performance_glitch_user | secret_sauce |

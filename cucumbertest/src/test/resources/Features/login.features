@@ -1,0 +1,7 @@
+Feature: Feature to test login automatically
+
+  Scenario: check login is successfully with valid credencials
+    Given user is on login page
+    When user enters username and password
+    And click on loggin button
+    Then the user is navigate to the home page
